@@ -1,6 +1,6 @@
 <!-- .slide: data-state="cover" id="cover-page" data-timing="20" -->
 <br>
-DOST 2019 - Berlin
+SUSECON 2020 - Dublin, Ireland
 <br>
 <br>
 <br>
