@@ -80,7 +80,7 @@ Note:
   * run as 'ceph' user and group <!-- .element: class="fragment" data-fragment-index="3" -->
   * default in SES <!-- .element: class="fragment" data-fragment-index="3" -->
 * MAC <!-- .element: class="fragment" data-fragment-index="4" -->
-  * AppArmor prifiles with SES6 <!-- .element: class="fragment" data-fragment-index="5" -->
+  * AppArmor profiles with SES6 <!-- .element: class="fragment" data-fragment-index="5" -->
 * May run (some daemons) in containers or VMs <!-- .element: class="fragment" data-fragment-index="6" -->
   * MONs and RGWs <!-- .element: class="fragment" data-fragment-index="6" -->
   * SES7 will containerize all services <!-- .element: class="fragment" data-fragment-index="7" -->
@@ -126,6 +126,7 @@ Note: limit on max open sockets per IP may be done on network layer
   * Get a regular protected backup copy of the keys <!-- .element: class="fragment" data-fragment-index="7" -->
   * Limit access to these config keys (CephX) <!-- .element: class="fragment" data-fragment-index="7" -->
 * Part of SES6 <!-- .element: class="fragment" data-fragment-index="8" -->
+
 
 <!-- .slide: data-state="normal" id="proact-7" data-timing="20s" data-menu-title="Proactive: CephX" -->
 ## Deployment and Setup
