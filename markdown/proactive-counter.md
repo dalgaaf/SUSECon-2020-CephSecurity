@@ -9,9 +9,13 @@
 * Separate cluster and public <!-- .element: class="fragment" data-fragment-index="1" -->
   * either physically or e.g. w/ VLANs <!-- .element: class="fragment" data-fragment-index="1" -->
 * Separate control nodes from other networks <!-- .element: class="fragment" data-fragment-index="2" -->
-* Do not expose to the internet <!-- .element: class="fragment" data-fragment-index="3" -->
-* Encrypt inter-datacenter traffic <!-- .element: class="fragment" data-fragment-index="4" -->
-* Enable Ceph client host ip:port(s) in firewall <!-- .element: class="fragment" data-fragment-index="5" -->
+* Separate services which expose APIs to external from the rest <!-- .element: class="fragment" data-fragment-index="3" -->
+* Do not expose to the internet <!-- .element: class="fragment" data-fragment-index="4" -->
+* Encrypt inter-datacenter traffic <!-- .element: class="fragment" data-fragment-index="5" -->
+* Enable Ceph client host ip:port(s) in firewall <!-- .element: class="fragment" data-fragment-index="6" -->
+
+Note:
+- external facing APIs are e.g. S3 ...
 
 
 <!-- .slide: data-state="normal" id="proact-2" data-timing="20s" data-menu-title="Proactive: Hyper-converged" -->
@@ -21,7 +25,7 @@
 * Avoid if possible <!-- .element: class="fragment" data-fragment-index="1" -->
   * separate compute and storage <!-- .element: class="fragment" data-fragment-index="2" -->
   * scale them independently <!-- .element: class="fragment" data-fragment-index="3" -->
-  * some degree of risk mitigation if daemons are compromided or DoS'd <!-- .element: class="fragment" data-fragment-index="4" -->
+  * some degree of risk mitigation if daemons are compromised or DoS'd <!-- .element: class="fragment" data-fragment-index="4" -->
   * Do not mix control nodes with compute/storage <!-- .element: class="fragment" data-fragment-index="5" -->
 * At least use hardened container setup <!-- .element: class="fragment" data-fragment-index="6" -->
   * as hypervisor: it's still software <!-- .element: class="fragment" data-fragment-index="6" -->
@@ -39,7 +43,7 @@ auth_service_required = cephx
 auth_client_required = cephx
 </code></pre>
 
-* <!-- .element: class="fragment" data-fragment-index="3" --> If possible use Ceph >= Nautilus release (CEPHX_V2)
+* <!-- .element: class="fragment" data-fragment-index="3" --> Use Ceph >= Nautilus release (CEPHX_V2) / use >= SES 6
 
 Note: see CVEs
 
@@ -69,15 +73,20 @@ Note:
 
 ### Hardening <!-- .element: class="fragment" data-fragment-index="0" -->
 
+* Allways install security patches ASAP!<!-- .element: class="fragment" data-fragment-index="0" -->
 * Harden your base system <!-- .element: class="fragment" data-fragment-index="1" -->
 * Run non-root Ceph daemons <!-- .element: class="fragment" data-fragment-index="2" -->
   * no escalation to root privileges <!-- .element: class="fragment" data-fragment-index="3" -->
   * run as 'ceph' user and group <!-- .element: class="fragment" data-fragment-index="3" -->
+  * default in SES <!-- .element: class="fragment" data-fragment-index="3" -->
 * MAC <!-- .element: class="fragment" data-fragment-index="4" -->
-  * SELinux / AppArmor <!-- .element: class="fragment" data-fragment-index="5" -->
-  * SELinux profiles available <!-- .element: class="fragment" data-fragment-index="5" -->
+  * AppArmor prifiles with SES6 <!-- .element: class="fragment" data-fragment-index="5" -->
 * May run (some daemons) in containers or VMs <!-- .element: class="fragment" data-fragment-index="6" -->
   * MONs and RGWs <!-- .element: class="fragment" data-fragment-index="6" -->
+  * SES7 will containerize all services <!-- .element: class="fragment" data-fragment-index="7" -->
+
+Note: 
+- SELinux profiles upstream available
 
 
 <!-- .slide: data-state="normal" id="proact-5.1" data-timing="20s" data-menu-title="Proactive: Hardening" -->
@@ -116,7 +125,7 @@ Note: limit on max open sockets per IP may be done on network layer
 * Encryption keys are stored in the MON <!-- .element: class="fragment" data-fragment-index="6" -->
   * Get a regular protected backup copy of the keys <!-- .element: class="fragment" data-fragment-index="7" -->
   * Limit access to these config keys (CephX) <!-- .element: class="fragment" data-fragment-index="7" -->
-
+* Part of SES6 <!-- .element: class="fragment" data-fragment-index="8" -->
 
 <!-- .slide: data-state="normal" id="proact-7" data-timing="20s" data-menu-title="Proactive: CephX" -->
 ## Deployment and Setup
@@ -143,6 +152,19 @@ Note: limit on max open sockets per IP may be done on network layer
 
 Note:
 * Alternatives: client-side encryption
+
+
+<!-- .slide: data-state="normal" id="proact-9" data-timing="20s" data-menu-title="Proactive: RBD" -->
+## Deployment and Setup
+
+### RBD
+
+* If possible use virtalization layer inbetween
+  * apply quotas
+* Without virtualization layer:
+  * consider using iSCSI inbetween
+
+Note: 
 
 
 <!-- .slide: data-state="normal" id="proact-8" data-timing="20s" data-menu-title="Proactive: RGW" -->
@@ -232,7 +254,7 @@ Note:
 
 ### Ceph Dashboard
 
-* Enable SSL/TLS <!-- .element class="fragment" -->
+* Allow only SSL/TLS<!-- .element class="fragment" -->
 * User accounts <!-- .element class="fragment" -->
   * enforce strong passwords (WIP for Octopus) <!-- .element class="fragment" -->
   * Cleanup users <!-- .element class="fragment" -->

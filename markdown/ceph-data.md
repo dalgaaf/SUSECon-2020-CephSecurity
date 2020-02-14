@@ -18,6 +18,7 @@
 * expensive recovery <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note:
+- replication: it's possible to do x2, but it's not recommended (single data corruption can cause unrecoverable error)
 - read on replication faster due to fact that k objects need to read (latency, CPU)
 
 

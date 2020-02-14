@@ -43,7 +43,7 @@ Note:
 
 ### Community - Responsible disclosure process
 * Strict SLA on issues raised with distros <!-- .element class="fragment" -->
-* RedHat security team drives CVE process <!-- .element class="fragment" -->
+* Community security team drives CVE process <!-- .element class="fragment" -->
 * Escalation process to Ceph developers <!-- .element class="fragment" -->
 * Security related fixes are prioritized and backported <!-- .element class="fragment" -->
 * Releases may be accelerated on ad-hoc basis <!-- .element class="fragment" -->

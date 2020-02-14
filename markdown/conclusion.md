@@ -6,7 +6,9 @@
 ## Summary and conclusions
 
 * Security is complex <!-- .element class="fragment" -->
-* Community is aware (security@ceph.io) <!-- .element class="fragment" -->
+* Community is aware <!-- .element class="fragment" -->
+* SUSE is actively involved <!-- .element class="fragment" -->
+* SUSE "Best Practice" / Hardening guide on the roadmap <!-- .element class="fragment" -->
 * Keep in mind: <!-- .element class="fragment" -->
   * Know your security requirements <!-- .element class="fragment" -->
   * Hardening <!-- .element class="fragment" -->
@@ -15,4 +17,4 @@
   * Monitoring <!-- .element class="fragment" -->
   * Update <!-- .element class="fragment" -->
 * Be vigilant !!! <!-- .element class="fragment" -->
-* Use Ceph Nautilus release !<!-- .element class="fragment" -->
+* Use Ceph Nautilus release (SES6 or later) !<!-- .element class="fragment" -->
