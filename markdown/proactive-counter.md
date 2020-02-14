@@ -73,7 +73,7 @@ Note:
 
 ### Hardening <!-- .element: class="fragment" data-fragment-index="0" -->
 
-* Allways install security patches ASAP!<!-- .element: class="fragment" data-fragment-index="0" -->
+* Always install security patches ASAP!<!-- .element: class="fragment" data-fragment-index="0" -->
 * Harden your base system <!-- .element: class="fragment" data-fragment-index="1" -->
 * Run non-root Ceph daemons <!-- .element: class="fragment" data-fragment-index="2" -->
   * no escalation to root privileges <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -178,7 +178,7 @@ Note:
 ### Rados Gateway
 
 * Big and easy taget through HTTP(s) protocol <!-- .element: class="fragment" data-fragment-index="1" -->
-* Allways enable SSL/HTTPs <!-- .element: class="fragment" data-fragment-index="2" -->
+* Always enable SSL/HTTPs <!-- .element: class="fragment" data-fragment-index="2" -->
 * Small appliance in front of RGW <!-- .element: class="fragment" data-fragment-index="3" -->
   * Seprate Network (e.g. one per consumer) <!-- .element: class="fragment" data-fragment-index="4" -->
   * SSL terminated proxy forwarding to RGW <!-- .element: class="fragment" data-fragment-index="5" -->
