@@ -206,6 +206,20 @@ body {
 
 .cover {
     .reveal {
+      margin: 0 !important;
+      padding: 0 !important;
+      background: url(../images/susecon_titlepage.jpg);
+      background-size: cover !important;
+      background-repeat: no-repeat;
+      color: white !important;
+
+      h2, h4 {
+          color: white !important;
+      }
+      h4 {
+          font-weight: normal !important;
+          font-style: italic;
+      }
 
       code {
           font-family: "Source Code Pro", monospace !important;
@@ -218,7 +232,6 @@ body {
        pre {
           box-shadow: none;
           padding: 0px 0px !important;
-          background-color: white;
           max-width: 100%;
           width: 100%;
        }
