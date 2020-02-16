@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-6" data-timing="10s" -->
+<!-- .slide: data-state="section-break" id="section-break-6" data-timing="10s" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 # Ceph CVEs
 
 
-<!-- .slide: data-state="normal" id="ceph-CVEs-0" data-timing="20s" data-menu-title="CVE-Stats" -->
+<!-- .slide: data-state="normal" id="ceph-CVEs-0" data-timing="20s" data-menu-title="CVE-Stats" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph CVE Statistics
 
 <canvas data-chart="bar">

@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-2.1" data-timing="10s" -->
+<!-- .slide: data-state="section-break" id="section-break-2.1" data-timing="10s" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 # Security 
 
 
-<!-- .slide: data-state="normal" id="sec-general-0" data-timing="20s" data-menu-title="Thread Actors" -->
+<!-- .slide: data-state="normal" id="sec-general-0" data-timing="20s" data-menu-title="Thread Actors" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## General considerations
 
 ### Threat Actors <!-- .element class="fragment" -->
@@ -14,7 +14,7 @@
 * Script Kiddies <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="sec-general-1" data-timing="20s" data-menu-title="General considerations" -->
+<!-- .slide: data-state="normal" id="sec-general-1" data-timing="20s" data-menu-title="General considerations" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## General considerations
 
 ### Is your Ceph: <!-- .element class="fragment" -->

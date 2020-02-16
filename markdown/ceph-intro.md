@@ -1,11 +1,11 @@
-<!-- .slide: data-state="section-break" id="section-break-2" data-timing="10s" -->
+<!-- .slide: data-state="section-break" id="section-break-2" data-timing="10s" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 # Intro
 
 
-<!-- .slide: data-state="normal" id="intro-1" data-timing="20s" data-menu-title="Ceph Overview" data-background-image="images/ceph-stack.svg" data-background-size="auto 90%" -->
+<!-- .slide: data-state="normal" id="intro-1" data-timing="20s" data-menu-title="Ceph Overview" data-background-image="images/ceph-stack_susecon.svg" data-background-size="auto 100%" -->
 
 
-<!-- .slide: data-state="normal" id="intro-2" data-timing="20s" data-menu-title="Ceph Components" -->
+<!-- .slide: data-state="normal" id="intro-2" data-timing="20s" data-menu-titlei="Ceph Components" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph Components
 
 ### Monitors (MON) <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -22,7 +22,7 @@
   * Object data, RocksDB (kv-store), Write-ahead log of RocksDB <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-<!-- .slide: data-state="normal" id="intro-3" data-timing="20s" data-menu-title="Ceph Components" -->
+<!-- .slide: data-state="normal" id="intro-3" data-timing="20s" data-menu-title="Ceph Components" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph Components
 
 ### Metadata Server (MDS) <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -39,7 +39,7 @@
 * Separate user management <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-<!-- .slide: data-state="normal" id="intro-4" data-timing="20s" data-menu-title="Ceph Components" -->
+<!-- .slide: data-state="normal" id="intro-4" data-timing="20s" data-menu-title="Ceph Components" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph Components
 
 ### Ceph Manager Daemon (MGR) <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -57,7 +57,7 @@
 * Auditing <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-<!-- .slide: data-state="normal" id="intro-5" data-timing="20s" data-menu-title="Ceph Networks" -->
+<!-- .slide: data-state="normal" id="intro-5" data-timing="20s" data-menu-title="Ceph Networks" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph Networks
 
 * IPv4 or IPv6 <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -69,7 +69,7 @@
   * heartbeat <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-<!-- .slide: data-state="normal" id="intro-6" data-timing="20s" data-menu-title="Ceph Networks - Ports" -->
+<!-- .slide: data-state="normal" id="intro-6" data-timing="20s" data-menu-title="Ceph Networks - Ports" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph Networks - Ports
 
 <table align="center">
