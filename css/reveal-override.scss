@@ -204,6 +204,16 @@ body {
     }
 }
 
+.disclaimer {
+    .reveal {
+        color: white !important;
+
+        h1, h2, h3, h4 {
+            color: white !important;
+        }
+    }
+}
+
 .cover {
     .reveal {
       margin: 0 !important;

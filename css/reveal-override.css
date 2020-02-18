@@ -192,6 +192,13 @@ body {
   color: black !important;
 }
 
+.disclaimer .reveal {
+  color: white !important;
+}
+.disclaimer .reveal h1, .disclaimer .reveal h2, .disclaimer .reveal h3, .disclaimer .reveal h4 {
+  color: white !important;
+}
+
 .cover .reveal {
   margin: 0 !important;
   padding: 0 !important;
