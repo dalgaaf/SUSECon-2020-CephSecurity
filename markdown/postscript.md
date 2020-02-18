@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" data-menu-title="Q & A" id="Q-and-A" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" data-menu-title="Q & A" id="Q-and-A" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
 # Questions?
 
 

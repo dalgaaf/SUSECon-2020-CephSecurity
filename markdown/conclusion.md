@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="section-break-8" data-timing="10s" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-8" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
 # Conclusion
 
 

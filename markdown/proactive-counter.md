@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="section-break-4" data-timing="10s" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-4" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
 # Proactive Countermeasures
 
 
@@ -37,8 +37,7 @@ Note:
 ### CephX <!-- .element: class="fragment" data-fragment-index="0" -->
 * Always enable authentication <!-- .element: class="fragment" data-fragment-index="1" -->
 
-<pre><!-- .element: class="fragment" data-fragment-index="2" --><code>
-auth_cluster_required = cephx
+<pre><!-- .element: class="fragment" data-fragment-index="2" --><code>auth_cluster_required = cephx
 auth_service_required = cephx
 auth_client_required = cephx
 </code></pre>
@@ -101,8 +100,7 @@ Note:
   * Check e.g. for false attempts on authentication <!-- .element: class="fragment" data-fragment-index="4" -->
   * consider automatically blacklist IPs in special scenarios <!-- .element: class="fragment" data-fragment-index="5" -->
 
-<pre><!-- .element: class="fragment" data-fragment-index="5" --><code>
-ceph osd blacklist add ADDRESS[:source_port] [TIME]
+<pre><!-- .element: class="fragment" data-fragment-index="5" --><code>ceph osd blacklist add ADDRESS[:source_port] [TIME]
 </code></pre>
 
 #### TODO: <!-- .element: class="fragment" data-fragment-index="7" -->
@@ -136,14 +134,12 @@ Note: limit on max open sockets per IP may be done on network layer
 * <!-- .element: class="fragment" data-fragment-index="1" --> Protect data from listener on networks
 * <!-- .element: class="fragment" data-fragment-index="2" --> Starting with Nautilus enable messenger v2 protocol
 
-<pre><!-- .element: class="fragment" data-fragment-index="3" --><code>
- ceph mon enable-msgr2
+<pre><!-- .element: class="fragment" data-fragment-index="3" --><code>ceph mon enable-msgr2
 </code></pre>
 
 * <!-- .element: class="fragment" data-fragment-index="4" --> enable ``secure`` mode for encryption (AES-GCM stream cipher)
 
-<pre><!-- .element: class="fragment" data-fragment-index="4" --><code>
- ms_cluster_mode = secure
+<pre><!-- .element: class="fragment" data-fragment-index="4" --><code> ms_cluster_mode = secure
  ms_service_mode = secure
  ms_client_mode = secure
  ms_mon_cluster_mode = secure
@@ -213,23 +209,20 @@ Note:
 
 * Path restrictions on mount <!-- .element: class="fragment" data-fragment-index="1" -->
 
-<pre><!-- .element: class="fragment" data-fragment-index="2" --><code>
-ceph fs authorize cephfs client.foo /bar rw
+<pre><!-- .element: class="fragment" data-fragment-index="2" --><code>ceph fs authorize cephfs client.foo /bar rw
 </code></pre>
 
 * Snapshots restrictions: enable only if needed <!-- .element: class="fragment" data-fragment-index="3" -->
 * In complex setups consider network restrictions <!-- .element: class="fragment" data-fragment-index="4" -->
 
-<pre><!-- .element: class="fragment" data-fragment-index="5" --><code>
-caps: [mds] allow r network 10.0.0.0/8, allow rw path=/bar
+<pre><!-- .element: class="fragment" data-fragment-index="5" --><code>caps: [mds] allow r network 10.0.0.0/8, allow rw path=/bar
 caps: [mon] allow r network 10.0.0.0/8
 caps: [osd] allow rw tag cephfs data=cephfs_a network 10.0.0.0/8
 </code></pre>
 
 * Limit user by uid/gids <!-- .element: class="fragment" data-fragment-index="6" -->
 
-<pre><!-- .element: class="fragment" data-fragment-index="7" --><code>
-caps: [mds] allow rw uid=1 gids=1,2
+<pre><!-- .element: class="fragment" data-fragment-index="7" --><code>caps: [mds] allow rw uid=1 gids=1,2
 </code></pre>
 
 Note: 

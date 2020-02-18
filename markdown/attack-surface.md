@@ -1,4 +1,4 @@
-<!-- .slide: data-state="section-break" id="section-break-3" data-timing="10s" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-3" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
 # Attack Surface
 
 
@@ -136,9 +136,9 @@ Note:
   * Manipulate key capabilities <!-- .element class="fragment" -->
   * Extract keys <!-- .element class="fragment" -->
 * Manipulate config settings <!-- .element class="fragment" -->
-* Fully compromised MON:
+* Fully compromised MON: <!-- .element class="fragment" -->
   * Attacker controls complete cluster <!-- .element class="fragment" -->
-  * incl. At-Rest-Encryption keys
+  * incl. At-Rest-Encryption keys <!-- .element class="fragment" -->
 
 
 <!-- .slide: data-state="normal" id="attack-10" data-timing="20s" data-menu-title="Attack Surface: MGR" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
@@ -167,5 +167,5 @@ Note:
   * Brute-force attack on weak passwords <!-- .element class="fragment" -->
 * Runs in Ceph Manager context, but is stateless <!-- .element class="fragment" -->
 * Stores login information on several external services in MON KV-store <!-- .element class="fragment" -->
-* Full admin access
+* Full admin access <!-- .element class="fragment" -->
 
