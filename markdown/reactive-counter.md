@@ -33,8 +33,8 @@ Note:
 * Simply write an email w/: <!-- .element: class="fragment" data-fragment-index="5" -->
   * Description of the issue <!-- .element: class="fragment" data-fragment-index="6" -->
   * Affected Ceph Version <!-- .element: class="fragment" data-fragment-index="6" -->
-  * How to reproduce, Proof of Concept <!-- .element: class="fragment" data-fragment-index="6" -->
-  * Patch <!-- .element: class="fragment" data-fragment-index="6" -->
+  * How to reproduce / Proof of Concept <!-- .element: class="fragment" data-fragment-index="6" -->
+  * Patches are welcome! <!-- .element: class="fragment" data-fragment-index="6" -->
 * Security team will contact you <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
