@@ -115,8 +115,9 @@ Note: limit on max open sockets per IP may be done on network layer
 
 ### Encryption - Data at Rest
 
-* ceph-volme supports dm-crypt <!-- .element: class="fragment" data-fragment-index="1" -->
-  * Encrypt raw block device (OSD and WAL/DB) <!-- .element: class="fragment" data-fragment-index="2" -->
+* ceph-volume supports dm-crypt <!-- .element: class="fragment" data-fragment-index="0" -->
+  * Encrypt raw block device (OSD and WAL/DB) <!-- .element: class="fragment" data-fragment-index="1" -->
+  * LUKS1, aes-xts-plain64, default keysize=1024 <!-- .element: class="fragment" data-fragment-index="2" -->
   * Separate key for each volume <!-- .element: class="fragment" data-fragment-index="3" -->
   * No performance impact with modern processors <!-- .element: class="fragment" data-fragment-index="4" -->
   * Allows disks to be safely discarded if key remains secret <!-- .element: class="fragment" data-fragment-index="5" -->
@@ -137,7 +138,7 @@ Note: limit on max open sockets per IP may be done on network layer
 <pre><!-- .element: class="fragment" data-fragment-index="3" --><code>ceph mon enable-msgr2
 </code></pre>
 
-* <!-- .element: class="fragment" data-fragment-index="4" --> enable ``secure`` mode for encryption (AES-GCM stream cipher)
+* <!-- .element: class="fragment" data-fragment-index="4" --> enable ``secure`` mode for encryption (AES_128_GCM stream cipher)
 
 <pre><!-- .element: class="fragment" data-fragment-index="4" --><code> ms_cluster_mode = secure
  ms_service_mode = secure
@@ -156,12 +157,10 @@ Note:
 
 ### RBD
 
-* If possible use virtalization layer inbetween
-  * apply quotas
-* Without virtualization layer:
-  * consider using iSCSI inbetween
-
-Note: 
+* If possible use virtalization layer inbetween <!-- .element: class="fragment" data-fragment-index="1" -->
+  * apply quotas <!-- .element: class="fragment" data-fragment-index="2" -->
+* w/o virtualization layer: <!-- .element: class="fragment" data-fragment-index="3" -->
+  * consider using iSCSI inbetween <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 <!-- .slide: data-state="normal" id="proact-8" data-timing="20s" data-menu-title="Proactive: RGW" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
