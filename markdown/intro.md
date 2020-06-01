@@ -3,14 +3,13 @@
 <br>
 <br>
 <br>
-<h2>Ceph Security</h2>
-<h4>Insights into setup requirements, attack vectors and pitfalls</h4>
+<h1>Ceph Security</h1>
+<h3>Insights into setup requirements, attack vectors and pitfalls</h3>
 <br>
 <br>
 <br>
 Danny Al-Gaaf | <a href="https://twitter.com/dannyalgaaf">@dannyalgaaf</a> <br>
 Deutsche Telekom AG <br>
-<br>
 <br>
 <br>
 <br>

@@ -210,10 +210,10 @@ body {
   background-repeat: no-repeat;
   color: white !important;
 }
-.cover .reveal h2, .cover .reveal h4 {
+.cover .reveal h1, .cover .reveal h3 {
   color: white !important;
 }
-.cover .reveal h4 {
+.cover .reveal h3 {
   font-weight: normal !important;
   font-style: italic;
 }
