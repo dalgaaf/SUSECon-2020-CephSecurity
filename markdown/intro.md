@@ -1,5 +1,5 @@
 <!-- .slide: data-state="cover" id="cover-page" data-timing="20" -->
-<img src="images/susecon_logo_white.png" style="height:45px;width:auto;margin:0px">
+<img src="images/susecondigital_logo_white.png" style="height:45px;width:auto;margin:0px">
 <br>
 <br>
 <br>
@@ -14,5 +14,4 @@ Deutsche Telekom AG <br>
 <br>
 <br>
 <br>
-<img src="images/SUSE-logo.svg" style="height:30px;width:auto;margin:0px;left:-17%;position:absolute">
-
+<img src="images/SUSE-logo_new.svg" style="height:50px;width:auto;margin:0px;left:-17%;position:absolute">

@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-6" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-6" data-timing="10s" data-background-image="images/susecondigital_background_full_green.svg" data-background-size="auto 100%" -->
 # Ceph CVEs
 
 
-<!-- .slide: data-state="normal" id="ceph-CVEs-0" data-timing="20s" data-menu-title="CVE-Stats" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="ceph-CVEs-0" data-timing="20s" data-menu-title="CVE-Stats" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Ceph CVE Statistics
 
 <canvas data-chart="bar">
@@ -13,7 +13,7 @@
 
      "datasets": [
          {
-             "data": [1, 3, 5, 6, 3, 8, 3, 1],
+             "data": [1, 3, 5, 6, 3, 8, 3, 5],
              "backgroundColor": [
                  "rgba(166, 206, 227, 0.6)",
                  "rgba(31, 120, 180, 0.6)",

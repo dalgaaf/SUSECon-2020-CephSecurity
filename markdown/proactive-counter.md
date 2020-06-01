@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-4" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-4" data-timing="10s" data-background-image="images/susecondigital_background_full_green.svg" data-background-size="auto 100%" -->
 # Proactive Countermeasures
 
 
-<!-- .slide: data-state="normal" id="proact-1" data-timing="20s" data-menu-title="Proactive: Networks" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-1" data-timing="20s" data-menu-title="Proactive: Networks" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Networks <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -18,10 +18,10 @@ Note:
 - external facing APIs are e.g. S3 ...
 
 
-<!-- .slide: data-state="normal" id="proact-2" data-timing="20s" data-menu-title="Proactive: Hyper-converged" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-2" data-timing="20s" data-menu-title="Proactive: Hyper-converged" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
-### Hyper-converged infra <!-- .element: class="fragment" data-fragment-index="0" -->
+### Hyper-converged infrastructure (HCI) <!-- .element: class="fragment" data-fragment-index="0" -->
 * Avoid if possible <!-- .element: class="fragment" data-fragment-index="1" -->
   * separate compute and storage <!-- .element: class="fragment" data-fragment-index="2" -->
   * scale them independently <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -31,7 +31,7 @@ Note:
   * as hypervisor: it's still software <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
-<!-- .slide: data-state="normal" id="proact-3" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-3" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### CephX <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -47,7 +47,7 @@ auth_client_required = cephx
 Note: see CVEs
 
 
-<!-- .slide: data-state="normal" id="proact-4" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-4" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### CephX Key management <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -67,7 +67,7 @@ Note:
 * Limit permissions to key files (admin=root, user=user,root)
 
 
-<!-- .slide: data-state="normal" id="proact-5" data-timing="20s" data-menu-title="Proactive: Hardening" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-5" data-timing="20s" data-menu-title="Proactive: Hardening" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Hardening <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -88,7 +88,7 @@ Note:
 - SELinux profiles upstream available
 
 
-<!-- .slide: data-state="normal" id="proact-5.1" data-timing="20s" data-menu-title="Proactive: Hardening" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-5.1" data-timing="20s" data-menu-title="Proactive: Hardening" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Denial of Service Attacks <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -110,7 +110,7 @@ Note:
 Note: limit on max open sockets per IP may be done on network layer
 
 
-<!-- .slide: data-state="normal" id="proact-6" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-6" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Encryption - Data at Rest
@@ -127,7 +127,7 @@ Note: limit on max open sockets per IP may be done on network layer
 * Part of SES6 <!-- .element: class="fragment" data-fragment-index="8" -->
 
 
-<!-- .slide: data-state="normal" id="proact-7" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-7" data-timing="20s" data-menu-title="Proactive: CephX" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Encryption - On Wire
@@ -152,7 +152,7 @@ Note:
 * Alternatives: client-side encryption
 
 
-<!-- .slide: data-state="normal" id="proact-9" data-timing="20s" data-menu-title="Proactive: RBD" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-9" data-timing="20s" data-menu-title="Proactive: RBD" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### RBD
@@ -163,7 +163,7 @@ Note:
   * consider using iSCSI inbetween <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
-<!-- .slide: data-state="normal" id="proact-8" data-timing="20s" data-menu-title="Proactive: RGW" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-8" data-timing="20s" data-menu-title="Proactive: RGW" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 <div>
@@ -184,7 +184,7 @@ Note:
 <br>
 
 
-<!-- .slide: data-state="normal" id="proact-9" data-timing="20s" data-menu-title="Proactive: CephFS" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-9" data-timing="20s" data-menu-title="Proactive: CephFS" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### CephFS
@@ -201,7 +201,7 @@ Note:
 - NFS: complexer setup, performance impact
 
 
-<!-- .slide: data-state="normal" id="proact-10" data-timing="20s" data-menu-title="Proactive: CephFS" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-10" data-timing="20s" data-menu-title="Proactive: CephFS" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### CephFS - Access Control
@@ -228,7 +228,7 @@ Note:
 - network restrictions: e.g. with multiple CephFS instances
 
 
-<!-- .slide: data-state="normal" id="proact-11" data-timing="20s" data-menu-title="Proactive: Manager" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-11" data-timing="20s" data-menu-title="Proactive: Manager" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Ceph Manager
@@ -242,7 +242,7 @@ Note:
 * Verification of modules? <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="proact-12" data-timing="20s" data-menu-title="Proactive: Dashboard" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-12" data-timing="20s" data-menu-title="Proactive: Dashboard" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Deployment and Setup
 
 ### Ceph Dashboard
@@ -256,7 +256,7 @@ Note:
 * Consider using a WAF (mod_security) <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="proact-20" data-timing="20s" data-menu-title="Proactive: Defects" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-20" data-timing="20s" data-menu-title="Proactive: Defects" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Community
 
 ### Preventing Breaches - Defects
@@ -271,7 +271,7 @@ Note:
 * Code review process <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
-<!-- .slide: data-state="normal" id="proact-21" data-timing="20s" data-menu-title="Proactive: Testing" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-21" data-timing="20s" data-menu-title="Proactive: Testing" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Community
 
 ### Preventing Breaches - Testing
@@ -283,7 +283,7 @@ Note:
   * automated attempt to subvert or crash by feeding garbade input <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
-<!-- .slide: data-state="normal" id="proact-22" data-timing="20s" data-menu-title="Proactive: Hardening" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="proact-22" data-timing="20s" data-menu-title="Proactive: Hardening" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Community
 
 ### Preventing Breaches - Build Hardening

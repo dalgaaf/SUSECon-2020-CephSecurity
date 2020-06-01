@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-3" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-3" data-timing="10s" data-background-image="images/susecondigital_background_full_green.svg" data-background-size="auto 100%" -->
 # Attack Surface
 
 
-<!-- .slide: data-state="normal" id="attack-0" data-timing="20s" data-menu-title="Attack Surface: misc" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-0" data-timing="20s" data-menu-title="Attack Surface: misc" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - General
 
 ### Generic Issues <!-- .element class="fragment" -->
@@ -14,7 +14,7 @@
 * Not aware/trained system admins <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-1" data-timing="20s" data-menu-title="Attack Surface: DoS" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-1" data-timing="20s" data-menu-title="Attack Surface: DoS" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - General
 
 ### Flaws and Bugs <!-- .element class="fragment" -->
@@ -27,7 +27,7 @@
 * Identify non-obvious but expensive features of client/cluster interfaces <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-2" data-timing="20s" data-menu-title="Attack Surface: Network" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-2" data-timing="20s" data-menu-title="Attack Surface: Network" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - General
 
 ### Network <!-- .element class="fragment" -->
@@ -40,7 +40,7 @@
   * no TCP session hijacking <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-3" data-timing="20s" data-menu-title="Attack Surface: " data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-3" data-timing="20s" data-menu-title="Attack Surface: " data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - Authentication
 
 ### CephX
@@ -57,7 +57,7 @@
 * Wrong set /too wide capabilites for certain users<!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-4" data-timing="20s" data-menu-title="Attack Surface: RGW" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-4" data-timing="20s" data-menu-title="Attack Surface: RGW" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - Rados Gateway
 
 <div>
@@ -77,7 +77,7 @@ Note:
 - typical http/https attacks
 
 
-<!-- .slide: data-state="normal" id="attack-5" data-timing="20s" data-menu-title="Attack Surface: RBD" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-5" data-timing="20s" data-menu-title="Attack Surface: RBD" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - RBD
 
 <div>
@@ -94,7 +94,7 @@ Note:
     * hypervisor is software (see e.g. Venom, Spectre, Meltdown) <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-6" data-timing="20s" data-menu-title="Attack Surface: RBD Host" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-6" data-timing="20s" data-menu-title="Attack Surface: RBD Host" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - RBD Host
 
 <div>
@@ -113,7 +113,7 @@ Note:
 + HCI: Hyperconverged infrastructure !
 
 
-<!-- .slide: data-state="normal" id="attack-7" data-timing="20s" data-menu-title="Attack Surface: CephFS" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-7" data-timing="20s" data-menu-title="Attack Surface: CephFS" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - CephFS
 
 <div>
@@ -128,7 +128,7 @@ Note:
   * privilege escalation <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-9" data-timing="20s" data-menu-title="Attack Surface: MONs" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-9" data-timing="20s" data-menu-title="Attack Surface: MONs" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - Ceph MONs
 
 * Compromise Auth database <!-- .element class="fragment" -->
@@ -141,7 +141,7 @@ Note:
   * incl. At-Rest-Encryption keys <!-- .element class="fragment" -->
 
 
-<!-- .slide: data-state="normal" id="attack-10" data-timing="20s" data-menu-title="Attack Surface: MGR" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-10" data-timing="20s" data-menu-title="Attack Surface: MGR" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - Ceph Manager
 
 * Utilize Ceph flaws to: <!-- .element class="fragment" -->
@@ -156,7 +156,7 @@ Note:
 - replacing modules usually requires root access, in this case you are already in HELL
 
 
-<!-- .slide: data-state="normal" id="attack-11" data-timing="20s" data-menu-title="Attack Surface: Dashboard" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="attack-11" data-timing="20s" data-menu-title="Attack Surface: Dashboard" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Attack Surface - Ceph Dashboard
 
 * Webservice <!-- .element class="fragment" -->

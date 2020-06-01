@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-5" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-5" data-timing="10s" data-background-image="images/susecondigital_background_full_green.svg" data-background-size="auto 100%" -->
 # Reactive Countermeasures
 
 
-<!-- .slide: data-state="normal" id="react-1" data-timing="20s" data-menu-title="Reactive: Breaches" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="react-1" data-timing="20s" data-menu-title="Reactive: Breaches" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Detecting and Preventing Breaches
 
 ### Brute force attacks on authentication <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -21,7 +21,7 @@ Note:
 - TODO is unfortunately open since 2015
 
 
-<!-- .slide: data-state="normal" id="react-2" data-timing="20s" data-menu-title="Reactive: SecProcess" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="react-2" data-timing="20s" data-menu-title="Reactive: SecProcess" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Security Process
 
 ### Community <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -38,7 +38,7 @@ Note:
 * Security team will contact you <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
-<!-- .slide: data-state="normal" id="react-3" data-timing="20s" data-menu-title="Reactive: SecProcess" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="react-3" data-timing="20s" data-menu-title="Reactive: SecProcess" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Security Process
 
 ### Community - Responsible disclosure process

@@ -1,8 +1,8 @@
-<!-- .slide: data-state="section-break" id="section-break-2.2" data-timing="10s" data-background-image="images/susecon_background_full_green.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="section-break" id="section-break-2.2" data-timing="10s" data-background-image="images/susecondigital_background_full_green.svg" data-background-size="auto 100%" -->
 # Data Management
 
 
-<!-- .slide: data-state="normal" id="data-1" data-timing="20s" data-menu-title="Thread Actors" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="data-1" data-timing="20s" data-menu-title="Thread Actors" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Data Distribution
 
 ### Replication <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -22,14 +22,14 @@ Note:
 - read on replication faster due to fact that k objects need to read (latency, CPU)
 
 
-<!-- .slide: data-state="normal" id="data-2" data-timing="20s" data-menu-title="Replication Diagram" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="data-2" data-timing="20s" data-menu-title="Replication Diagram" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Replication
 <div>
   <center><img data-src="images/replica_explained.svg" style="width:35%"></center>
 </div>
 
 
-<!-- .slide: data-state="normal" id="data-3" data-timing="20s" data-menu-title="Erasure Coding Diagram" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="data-3" data-timing="20s" data-menu-title="Erasure Coding Diagram" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Erasure Coding
 <div>
   <center><img data-src="images/ec_explained_extra.svg" style="width:65%"></center>
@@ -41,7 +41,7 @@ Note:
 - chunks/shards will be distributed as defined in crush and erasure code profile
 
 
-<!-- .slide: data-state="normal" id="data-4" data-timing="20s" data-menu-title="Thread Actors" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="data-4" data-timing="20s" data-menu-title="Thread Actors" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Data Integrity
 
 ### Maintain data consistency and cleanliness <!-- .element: class="fragment" data-fragment-index="0" -->
@@ -58,7 +58,7 @@ Note:
   * Backward scrub to verify each RADOS object <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
-<!-- .slide: data-state="normal" id="data-5" data-timing="20s" data-menu-title="General considerations" data-background-image="images/susecon_background_full.svg" data-background-size="auto 100%" -->
+<!-- .slide: data-state="normal" id="data-5" data-timing="20s" data-menu-title="General considerations" data-background-image="images/susecondigital_background_full.svg" data-background-size="auto 100%" -->
 ## Data Deletion
 
 * Deleting RBD/RGW/CephFS objects Ceph destroys object on Rados <!-- .element: class="fragment" data-fragment-index="0" -->
